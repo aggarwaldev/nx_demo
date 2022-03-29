@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@easy/auth": ["packages/libs/auth/src/index.ts"],
+      "@easy/auth2": ["packages/libs/auth2/src/index.ts"],
+      "@easy/auth2/*": ["packages/libs/auth2/src/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

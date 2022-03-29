@@ -1,0 +1,22 @@
+{
+  "root": "packages/libs/auth2",
+  "sourceRoot": "packages/libs/auth2/src",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/libs/auth2/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/libs/auth2"],
+      "options": {
+        "jestConfig": "packages/libs/auth2/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

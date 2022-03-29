@@ -1,4 +1,8 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "auth": "packages/libs/auth",
+    "auth2": "packages/libs/auth2",
+    "easy": "packages/easy"
+  }
 }
