@@ -3,6 +3,8 @@
   "projects": {
     "auth": "packages/libs/auth",
     "auth2": "packages/libs/auth2",
-    "easy": "packages/easy"
+    "easy": "packages/easy",
+    "frontend-easy": "packages/frontend/easy",
+    "frontend-easy-e2e": "packages/frontend/easy-e2e"
   }
 }
